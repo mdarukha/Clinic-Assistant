@@ -2,10 +2,6 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-# use path to local downloaded model if exists, or use script to download if not
-if not os.path.exists("models/mistral-7b-instruct-v0.2.Q4_K_M.gguf"):
-    from download_model import download_model
-    download_model()
 
 from router.query_router import classify_query
 from retriever.retrieve import retrieve_top_k
