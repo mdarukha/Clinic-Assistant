@@ -1,5 +1,13 @@
 import streamlit as st
 from clinic_assistant_streamlit import handle_query
+import json
+import os
+
+# use credentials.json from streamlit secrets
+if "GOOGLE_CREDENTIALS" in st.secrets and not os.path.exists("credentials.json"):
+    credentials_dict = json.loads(st.secrets["GOOGLE_CREDENTIALS"])
+    with open("credentials.json", "w") as f:
+        json.dump(credentials_dict, f)
 
 # app setup
 st.set_page_config(page_title="Clinic Assistant", page_icon="🩺")
