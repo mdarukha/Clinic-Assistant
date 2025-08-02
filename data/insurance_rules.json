@@ -1,0 +1,20 @@
+{
+  "accepted": [
+    "Blue Cross Blue Shield",
+    "Aetna",
+    "Sutter Health",
+    "United Healthcare",
+    "Medicare",
+    "Cigna",
+    "Anthem"
+  ],
+  "not_accepted": [
+    "Medi-Cal",
+    "Kaiser",
+    "Travelers",
+    "Health Net"
+  ],
+  "ppo_note": "For accepted insurances, PPO plans are generally covered.",
+  "hmo_note": "If you have an HMO plan, please contact the clinic directly to verify eligibility.",
+  "unlisted_response": "We recommend calling the clinic to verify if your insurance is accepted."
+}

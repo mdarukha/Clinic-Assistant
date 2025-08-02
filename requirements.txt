@@ -1,0 +1,27 @@
+# core app dependencies
+streamlit==1.47.1
+
+# google calendar/sheets
+google-api-python-client==2.177.0
+google-auth==2.40.3
+google-auth-oauthlib==1.2.2
+google-auth-httplib2==0.2.0
+httplib2==0.22.0
+
+# data handling
+pandas==2.3.1
+numpy==2.3.1
+pytz==2025.2
+python-dateutil==2.9.0.post0
+
+# LLM/embeddings
+llama_cpp_python==0.3.14
+sentence-transformers==5.0.0
+transformers==4.53.3
+scikit-learn==1.7.1
+
+# FAISS for similarity search
+faiss-cpu==1.11.0.post1
+
+requests==2.32.4
+tqdm==4.67.1
