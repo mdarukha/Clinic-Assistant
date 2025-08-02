@@ -3,7 +3,7 @@ from llama_cpp import Llama
 
 # initialize mistral model
 llm = Llama(
-    model_path="models/mistral-7b-instruct-v0.2.Q4_K_M.gguf",
+    model_path="models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf",
     n_ctx=2048,
     n_threads=8,
     n_gpu_layers=20,
