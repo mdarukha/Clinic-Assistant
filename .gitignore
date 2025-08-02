@@ -12,5 +12,3 @@ __pycache__/
 .streamlit/
 .env
 
-# ignore model local file
-models/*.gguf
