@@ -1,5 +1,5 @@
 import streamlit as st
-from webapp.clinic_assistant_streamlit import handle_query
+from clinic_assistant_streamlit import handle_query
 import json
 import os
 
