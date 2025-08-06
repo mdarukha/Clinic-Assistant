@@ -4,7 +4,7 @@ import contextlib
 from llama_cpp import Llama
 
 # local path to mistral model
-MODEL_PATH = os.path.join("models", "tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf")
+MODEL_PATH = os.path.join("models", "mistral-7b-instruct-v0.2.Q4_K_M.gguf")
 
 # function to suppress model output for cleaner frontend deployment
 @contextlib.contextmanager

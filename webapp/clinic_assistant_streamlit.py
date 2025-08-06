@@ -2,7 +2,6 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-
 from router.query_router import classify_query
 from retriever.retrieve import retrieve_top_k
 from tools.hours_checker import check_hours
@@ -10,7 +9,7 @@ from tools.insurance_checker import check_insurance
 from tools.calendar_checker_streamlit import check_and_book_appointment  # streamlit version with status messages
 from llm.generator import generate_response
 
-# similar to clinic_assistant_cli to be used with CLI but modified calendar to accept multiple info fields for streamlit integration
+# similar to clinic_assistant_cli but modified calendar to accept multiple info fields for streamlit integration
 
 def handle_query(query, name=None, email=None, confirm=None):
     route = classify_query(query)

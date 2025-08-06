@@ -1,6 +1,7 @@
-import os
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
+
+# tool to log patient/appt info to integrated google sheets
 
 # google sheets details
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']

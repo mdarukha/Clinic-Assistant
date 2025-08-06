@@ -1,5 +1,4 @@
 import json
-import re
 
 # tool to repsond to questions based on clinic insurance policies using json of accepted/not accepted plans
 

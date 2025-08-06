@@ -4,6 +4,8 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from tools.sheets_logger import log_booking
 
+# complementary tool to book appt based on calendar availability and log info
+
 # google calendar details
 SCOPES = ['https://www.googleapis.com/auth/calendar']
 CALENDAR_ID = 'c_007b3759108ae41483c0489dd330450b3ef3691609cd3ff4133320820e19718c@group.calendar.google.com'

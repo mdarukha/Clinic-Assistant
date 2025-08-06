@@ -67,7 +67,7 @@ def check_and_book_appointment(query, name=None, email=None, confirm=None):
     if not is_within_business_hours(date, time):
         return {
             "status": "done",
-            "message": "Our clinic only accepts appointments Monday to Friday between 9 AM and 5 PM. Please try a time during business hours."
+            "message": "Our clinic only accepts appointments Monday to Friday between 8 AM and 6 PM. Please try a time during business hours."
         }
 
     if not check_availability(service, date, time):
@@ -75,7 +75,7 @@ def check_and_book_appointment(query, name=None, email=None, confirm=None):
         if next_date:
             return {
                 "status": "done",
-                "message": f"Sorry, that time is already booked. The next available slot is {next_time.strftime('%I:%M %p')} on {next_date.strftime('%A, %B %d')}."
+                "message": f"🔴 Sorry, that time is already booked. The next available slot is {next_time.strftime('%I:%M %p')} on {next_date.strftime('%A, %B %d')}."
             }
         else:
             return {

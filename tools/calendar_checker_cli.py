@@ -4,6 +4,8 @@ from dateutil import parser as dtparser
 from tools.gcal_scheduler import get_calendar_service, check_availability, book_appointment
 from tools.sheets_logger import log_booking
 
+# tool to check intergrated google calendar, prompt user for info, and book appt
+
 TIMEZONE = 'America/Los_Angeles'
 CLINIC_OPEN_HOUR = 8 
 CLINIC_CLOSE_HOUR = 18  
@@ -57,7 +59,7 @@ def check_and_book_appointment(query):
             return "Sorry, I couldn't find any open slots in the coming days."
 
     if not is_within_business_hours(date, time):
-        return "Our clinic only accepts appointments Monday to Friday between 9 AM and 5 PM. Please try a time during business hours."
+        return "Our clinic only accepts appointments Monday to Friday between 8 AM and 6 PM. Please try a time during business hours."
 
     if not check_availability(service, date, time):
         next_date, next_time = find_next_available_slot(service, date, time)

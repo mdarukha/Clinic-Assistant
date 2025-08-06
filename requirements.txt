@@ -22,6 +22,3 @@ scikit-learn
 
 # FAISS for similarity search
 faiss-cpu
-
-requests
-tqdm

@@ -1,5 +1,3 @@
-import re
-
 # function to classify user query and return a route based on keywords
 def classify_query(query):
     q = query.lower()

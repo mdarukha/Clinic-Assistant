@@ -1,4 +1,3 @@
-import os
 import faiss
 import argparse
 from retriever.embeddings import load_embedder, embed_passages
