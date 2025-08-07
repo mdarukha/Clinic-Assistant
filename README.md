@@ -8,7 +8,9 @@ The assistant supports:
 
 ---
 
-📸 **Live Streamlit Interface:**
+## 📸 Live Streamlit Interface:
+
+![Clinic Assistant Streamlit UI Preview](assets/streamlit_ui.png)
 
 ---
 
