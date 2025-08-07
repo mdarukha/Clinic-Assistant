@@ -8,6 +8,10 @@ The assistant supports:
 
 ---
 
+📸 **Live Streamlit Interface:**
+
+---
+
 ## 🚀 Features & Capabilities
 
 | Functionality        | Description |
