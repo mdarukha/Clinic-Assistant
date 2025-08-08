@@ -65,10 +65,6 @@ The assistant uses the **Mistral-7B-Instruct-v0.2** model in `.gguf` format for 
 2. Choose this file:  
    `mistral-7b-instruct-v0.2.Q4_K_M.gguf`
 3. Place it in the `models/` folder:
-   
-clinic-assistant/
-├── models/
-│ └── mistral-7b-instruct-v0.2.Q4_K_M.gguf
 
 *   **`clinic assistant/`**
     *   `models/`
