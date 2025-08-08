@@ -70,6 +70,10 @@ clinic-assistant/
 ├── models/
 │ └── mistral-7b-instruct-v0.2.Q4_K_M.gguf
 
+*   **`clinic assistant/`**
+    *   `models/`
+         *   `mistral-7b-instruct-v0.2.Q4_K_M.gguf`
+
 ---
 
 ## 🔐 Google API Setup (Calendar & Sheets)
