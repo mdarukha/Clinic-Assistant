@@ -196,7 +196,7 @@ Key libraries include:
   - `tools/sheets_logger.py`: `SHEET_ID = "..."`  
 - ✅ You must download the Mistral model manually from Hugging Face:  
   [TheBloke/Mistral-7B-Instruct-v0.2-GGUF](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF)  
-  Save it in the `models/` folder.
+  - Save it in the `models/` folder.
 - ✅ The assistant runs entirely offline, without any external LLM APIs.
 - ❗ Deployment via Streamlit Cloud is not recommended, as hosting local `.gguf` models is unsupported and can cause performance issues. Run locally instead using instructions above.
 
